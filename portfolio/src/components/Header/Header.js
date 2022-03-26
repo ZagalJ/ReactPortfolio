@@ -9,6 +9,10 @@ function Header({currentPage, handlePageChage}) {
         <Navbar className="header" fixed="top" variant="light">
             <Container className="header-container">
                 <div className="header-name">Jonathan Zagal</div>
+                <span></span>
+                <span></span>
+                <span></span>
+
 
                 <Nav className="me-auto">
                 <Nav.Link 
@@ -21,18 +25,21 @@ function Header({currentPage, handlePageChage}) {
                 <Nav.Link 
                     className="header-font-col"
                     href="#Portfolio"
+                    onClick={() => handlePageChage("Portfolio")}
                 >
                     Portfolio
                 </Nav.Link>   
                 <Nav.Link 
                     className="header-font-col"
                     href="#Contact"
+                    onClick={() => handlePageChage("Contact")}
                 >
                     Contact
                 </Nav.Link>
                 <Nav.Link 
                     className="header-font-col"
                     href="#Resume"
+                    onClick={() => handlePageChage("Resume")}
                 >
                     Resume
                 </Nav.Link>      
