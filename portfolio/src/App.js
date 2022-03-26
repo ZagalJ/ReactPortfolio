@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import Header from "./components/Header/Header";
-import Intro from "./components/intro/Intro";
+import Intro from "./components/intro/Intro.js";
 import Contact from "./components/Contact/Contact";
 import Portfolio from "./components/Portfolio/Portfolio";
 import Footer from "./components/Footer/Footer";
@@ -25,10 +25,18 @@ const App = () => {
     if(currentPage ==='Resume'){
       return <Resume />
     };
+  };
 
     const handlePageChange = (page) => setCurrentPage(page);
     return (
-      
-    )
-  }
-}
+      <div>
+      {/* We are passing the currentPage from state and the function to update it */}
+      <Header currentPage={currentPage} handlePageChange={handlePageChange} />
+      {/* Here we are calling the renderPage method which will return a component  */}
+      {renderPage()}
+      <Footer />
+    </div>
+    );
+};
+
+export default App;
