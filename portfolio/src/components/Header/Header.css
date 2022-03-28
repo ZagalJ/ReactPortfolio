@@ -1,8 +1,8 @@
 .header {
     display: flex;
     height: 100px;
-    color: #f0d6d2;
-    background-color: #152835;
+    color: #FFF3B0;
+    background-color: #335c67;
     font-size: 20px;
   }
   
@@ -12,7 +12,7 @@
   }
   
   .nav-link {
-    color: #f0d6d2 !important;
+    color: #FFF3B0 !important;
     margin: 2rem;
     justify-content: center;
     align-items: center;
@@ -20,14 +20,14 @@
   }
   
   .navbar-nav :hover{
-    color: #dba093;
+    color: #FFF3B0;
     transform: scale(1.05);
     box-shadow: 0 3px 3px 3px;
     border-radius: 0.2rem;
   }
   
   .navbar-nav :active {
-    color: #dba093 !important;
+    color: #FFF3B0 !important;
     transform: scale(1.05);
     box-shadow: 0 3px 3px 3px;
   }

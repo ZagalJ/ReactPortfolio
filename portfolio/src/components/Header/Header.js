@@ -4,9 +4,11 @@ import Nav from "react-bootstrap/Nav";
 import  Container  from "react-bootstrap/Container";
 import "./Header.css"
 
+//we take the current page and submit the handle page change on click
 function Header({currentPage, handlePageChange}) {
+
     return(
-        <Navbar className="header" fixed="top" variant="light">
+        <Navbar className="header" variant="light">
             <Container className="header-container">
                 <div className="header-name">Jonathan Zagal</div>
                 <span></span>
