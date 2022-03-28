@@ -10,9 +10,10 @@ import Resume from "./components/Resume/Resume";
 
 const App = () => {
   const [currentPage, setCurrentPage] = useState ('Intro');
-
+  // console.log(currentPage)
   //We check the value of currentPage and we return the value to render
   const renderPage = () => {
+    // console.log("where is this?")
     if(currentPage ==='Intro'){
       return <Intro />
     }
@@ -22,9 +23,8 @@ const App = () => {
     if(currentPage ==='Contact'){
       return <Contact />
     }
-    if(currentPage ==='Resume'){
-      return <Resume />
-    };
+    return <Resume />
+    
   };
 
     const handlePageChange = (page) => setCurrentPage(page);

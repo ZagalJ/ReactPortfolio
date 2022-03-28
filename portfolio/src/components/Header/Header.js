@@ -4,7 +4,7 @@ import Nav from "react-bootstrap/Nav";
 import  Container  from "react-bootstrap/Container";
 import "./Header.css"
 
-function Header({currentPage, handlePageChage}) {
+function Header({currentPage, handlePageChange}) {
     return(
         <Navbar className="header" fixed="top" variant="light">
             <Container className="header-container">
@@ -18,28 +18,28 @@ function Header({currentPage, handlePageChage}) {
                 <Nav.Link 
                     className="header-font-col"
                     href="#Intro"
-                    onClick={() => handlePageChage("Intro")}
+                    onClick={() => handlePageChange("Intro")}
                 >
                     About Me
                 </Nav.Link>    
                 <Nav.Link 
                     className="header-font-col"
                     href="#Portfolio"
-                    onClick={() => handlePageChage("Portfolio")}
+                    onClick={() => handlePageChange("Portfolio")}
                 >
                     Portfolio
                 </Nav.Link>   
                 <Nav.Link 
                     className="header-font-col"
                     href="#Contact"
-                    onClick={() => handlePageChage("Contact")}
+                    onClick={() => handlePageChange("Contact")}
                 >
                     Contact
                 </Nav.Link>
                 <Nav.Link 
                     className="header-font-col"
                     href="#Resume"
-                    onClick={() => handlePageChage("Resume")}
+                    onClick={() => handlePageChange("Resume")}
                 >
                     Resume
                 </Nav.Link>      
