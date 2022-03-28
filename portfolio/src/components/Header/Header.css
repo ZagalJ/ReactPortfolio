@@ -1,8 +1,8 @@
 .header {
     display: flex;
     height: 100px;
-    color: #FFF3B0;
-    background-color: #335c67;
+    color: #FEF9EF;
+    background-color: #227C9D;
     font-size: 20px;
   }
   
@@ -12,7 +12,7 @@
   }
   
   .nav-link {
-    color: #FFF3B0 !important;
+    color: #FEF9EF !important;
     margin: 2rem;
     justify-content: center;
     align-items: center;
@@ -20,14 +20,14 @@
   }
   
   .navbar-nav :hover{
-    color: #FFF3B0;
+    color: #FEF9EF;
     transform: scale(1.05);
     box-shadow: 0 3px 3px 3px;
     border-radius: 0.2rem;
   }
   
   .navbar-nav :active {
-    color: #FFF3B0 !important;
+    color: #17C3B2 !important;
     transform: scale(1.05);
     box-shadow: 0 3px 3px 3px;
   }

@@ -1,10 +1,10 @@
 .contact-wrapper {
-    background-color: #2c5570 !important;
+    background-color: #152835 !important;
     height: 100vh;
     padding: 30px;
   }
   .contact-container {
-    background-color: #2c5570 !important;
+    background-color: #152835 !important;
     padding: 30px;
     color: #9E2A2B;
     width: 100%;
@@ -19,22 +19,23 @@
   .contact-title {
     padding: 15px;
     font-size: x-large;
+    color: #FEF9EF;
   }
   .contact-submit {
-    color: #152835 !important;
-    background-color: #E09F3E !important;
-    border-color: #FFF3B0 !important;
+    color: #FEF9EF !important;
+    background-color: #FE6D73 !important;
+    border-color: #FEF9EF !important;
     margin-top: 20px;
     cursor: pointer;
     float: right;
   }
   
   #contact-form {
-    background-color: #2c5570 !important;
+    background-color: #152835 !important;
   }
   
   .form-control {
-    background-color: #FFF3B0 !important;
+    background-color: #FEF9EF !important;
   }
   
   @media screen and (max-width: 768px) {
