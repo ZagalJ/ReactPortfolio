@@ -7,6 +7,10 @@
 ## Description
 This is a personal portfolio with some of my projects, and it was done using react
 
+## Direct Link
+
+[https://zagalj.github.io/ReactPortfolio](https://zagalj.github.io/ReactPortfolio/#Portfolio) 
+
 ## Demo 
 
 ***
