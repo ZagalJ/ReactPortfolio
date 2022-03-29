@@ -14,13 +14,13 @@ const Portfolio =() => {
             </div>
             <div className="project">
                 <div className="pj">
-                    <div className="pj-header">Demo first project </div>
-                    <a href=""
+                    <div className="pj-header">Barnes And Node</div>
+                    <a href="https://mysterious-ocean-11521.herokuapp.com/login"
                     target="_blank">
                         <img className="demo-img" src={demo1}/>
                     </a>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed blandit dolor et nunc lobortis, vitae faucibus nisl convallis. Fusce congue ullamcorper tellus, et varius orci. </p>
-                    <a href="">Github repo</a>
+                    <p>This is an online library management app where users can browse books by category, author and name, review books, and also reserve them to borrow. </p>
+                    <a href="https://github.com/ZagalJ/BarnesAndNode">Github repo</a>
                 </div>
             </div>
         </div>
