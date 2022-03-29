@@ -3,6 +3,7 @@ import "./Contact.css";
 import {useForm, ValidationError} from "react";
 import {validateEmail} from "../../utils/helpers"
 import { Container, Form, Section } from "react-bootstrap";
+import { AiFillGithub, AiFillLinkedin } from "react-icons/ai";
 
 
 
@@ -37,7 +38,20 @@ function Contact () {
            <span></span>
            <span></span>
         </Form>
-
+        <ul className="icons">
+                       <li className="social-icons">
+                           <a href="https://github.com/ZagalJ"
+                           target="_blank">
+                               <AiFillGithub></AiFillGithub>
+                           </a>
+                       </li>
+                       <li className="social-icons">
+                           <a href="https://www.linkedin.com/in/jonathan-zagal-893946165/"
+                           target="_blank">
+                               <AiFillLinkedin></AiFillLinkedin>
+                           </a>
+                       </li>
+                   </ul>
      </section>
         );
 };
