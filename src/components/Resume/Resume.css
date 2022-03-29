@@ -42,9 +42,6 @@
     padding: 10px;
   }
   
-  .alternate {
-    color: #dba093;
-  }
   
   @media screen and (max-width: 375px) {
     .resume-wrapper {

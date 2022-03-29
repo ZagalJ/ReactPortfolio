@@ -3,7 +3,10 @@
     color: #FEF9EF !important;
     padding-top: 10px !important;
     height: 10vh !important;
-display: block;  }
+    display: block;  
+    bottom: 100%;
+}
+
   
   .footer-copywright {
     text-align: center !important;

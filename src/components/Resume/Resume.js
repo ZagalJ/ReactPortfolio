@@ -16,9 +16,42 @@ function Resume (){
                 </Row>
                 <div className="resume-div">
                     <h2 className="resume-name">Jonathan Zagal</h2>
+                    <br/>
                     <p className="resume-items">
-                    adipiscing elit. Sed blandit dolor et nunc lobortis, vitae faucibus nisl convallis. Fusce congue ullamcorper tellus, et varius orci. In in convallis urna. Sed vitae lorem eu mi maximus euismod vitae nec tortor. Cras in orci in risus porttitor convallis quis ac ipsum. Integer at pulvinar tellus. Phasellus ultrices augue vehicula ante pulvinar, non suscipit felis tincidunt. Nunc vehicula velit metus, nec cursus enim aliquam et. Duis risus justo, egestas vitae neque vitae, sollicitudin elementum urna. Duis convallis interdum iaculis. Sed malesuada felis nisl, ac condimentum odio vehicula quis.
+                        Full stack web developer looking to get into the tech field. 
                     </p>
+                    <br/>
+                    <br></br>
+                    Earned a certificate in MERN Stack Web Development from the University of Minnesota Coding Bootcamp. Learned HTML and CSS back in High School as well as some Java.
+                    <br/>
+                    <br/>
+                    <h3 className="resume-skills">Technical Skills</h3>
+                    <br></br>
+                    <div className="columns">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Node JS</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                        <li>MySQL</li>
+                        <li>Express</li>
+                        <li>Mongo DB</li>
+                        <li>Github</li>
+                        <li>APIs</li>
+                        <li>Handlerars</li>
+                    </div>
+                    <br/>
+                    <br/>
+                    <h3 className="resume-skills">Soft Skills</h3>
+                    <br/>
+                    <div className="columns">
+                        <li>Fast Learner</li>
+                        <li>Problem Solving</li>
+                        <li>Resourceful</li>
+                        <li>Teamwork</li>
+                    </div>
+
                 </div>
             </Container>
 
