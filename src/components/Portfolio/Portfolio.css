@@ -9,7 +9,7 @@
     color: #FEF9EF;
 }
 
-.pj-text {
+.p-text {
     font-size: 30px;
 }
 
@@ -29,7 +29,7 @@
     width: 100%;
 }
 
-.pj {
+.p{
     overflow: hidden;
     width: 40%;
     height: 70vh;
@@ -42,7 +42,7 @@
     background-color: transparent 
 }
 
-.pj-header {
+.p-header {
     height: 40px;
     font-size: x-large;
     justify-content: center;

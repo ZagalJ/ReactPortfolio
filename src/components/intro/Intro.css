@@ -12,7 +12,7 @@
   }
   .intro-right {
     flex: 1;
-    position: relative;
+    /* position: relative; */
   }
   .intro-left-wrapper {
     padding: 40px;
@@ -32,7 +32,6 @@
   
   .intro-title {
     height: 50px;
-    overflow: hidden;
     font-weight: 100;
   }
   
@@ -67,13 +66,13 @@
   }
   
   .intro-img {
-    margin-top: 25px;
-    height: 100%;
-    width: 100%;
+    margin-top: 200px;
+    height: 70%;
+    width: 40%;
     object-fit: cover;
     position: absolute;
     top: 0;
-    right: 0;
+    right: 10px;
   }
   
   @media screen and (max-width: 768px) {
